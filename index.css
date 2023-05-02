@@ -1,0 +1,149 @@
+body{
+    background-image:url(images/background.jpg);
+    background-repeat:repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#a{
+border-width: 2px;
+border-color: #03045e;
+border-style:groove;
+
+background-color: transparent;
+backdrop-filter: blur(10px);
+max-width: 1300px;
+height: 500px;
+margin: auto;
+margin-top: 35px;
+border-radius: 35px;
+
+
+}
+#b{
+border-color: #03045e;
+border-style: groove;
+border-width: 2px;
+background-color: transparent;
+backdrop-filter: blur(10px);
+max-width: 1300px;
+height: 500px;
+margin: auto;
+border-radius: 35px;
+margin-top: 35px;
+
+}
+#c{
+border-color: #03045e;
+border-style: groove;
+border-width: 2px;
+background-color: transparent;
+backdrop-filter: blur(10px);
+max-width: 1300px;
+height: 500px;
+margin: auto;
+border-radius: 35px;
+margin-top: 35px;
+
+}
+#resim{
+margin-top: 53px;
+margin-left: 30px;
+border-radius: 25px;
+
+
+}
+#baslik{
+margin-left: 400px;
+margin-top: -420px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 50px;
+font-style: italic;
+color:#22223b;
+text-shadow:1px -1px 9px #e01e37 ;
+}
+#blog{
+    font-size: 20px;
+    margin-left: 400px;
+    margin-top: -200;
+    line-height: 27px;
+    text-indent: 20px;
+}
+.çalis{
+font-family: 'Times New Roman', Times, serif;
+font-size: 50px;
+font-style: italic;
+color:#22223b;
+margin-left: 500px ;
+text-shadow:1px -1px 9px #e01e37 ;
+}
+
+#email{
+ padding: 9px 13px 9px 13px;
+ border-radius: 13px;
+ border-style:groove;
+ border-width: 0px;
+ font-size: 21px;
+ margin:0px 0px 20px 510px;
+
+}
+#email:invalid{
+    border-color: brown;
+}
+#email:invalid {
+    box-shadow: 0 0 0 0px red;
+    outline: none;
+  
+}
+#email:valid  {
+box-shadow: 0 0 0 0px green;
+outline: none;
+}
+#email:invalid + span::before{
+    white-space: pre;
+    content: ' ✘';
+    color: red;
+    font-size: 25px;
+}
+#email:valid + span::before{
+    white-space: pre;    
+    content: ' ✓';
+    color: green;
+    font-size: 25px ;
+}
+#mesaj{
+    margin-left: 460px;
+    box-shadow: 0 0 0 0px black;
+    outline:none;
+    border-width: 0px;
+    border-radius: 18px;
+}
+#gönder{
+    font-size: 21px;
+    margin:15px 0px 0px 605px;
+    box-shadow: 0 0 0 0px green;
+    outline: none;
+    padding:5px 7px 5px 7px  ;
+    border-radius: 8px;
+    border-width: 0px;
+}
+#mesaj::placeholder{
+    text-indent: 9px;
+}
+#son{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1155px;
+    margin-top: 35px;
+    color: aliceblue;
+    font-weight:100;
+}
+li{
+    font-size: 25px;
+    white-space: pre;
+    line-height:35px ;
+    letter-spacing: 1px;
+}
+#paragraf{
+    font-size: 25px;  
+    text-indent: 35px;  
+    margin-top: 50px;
+}
